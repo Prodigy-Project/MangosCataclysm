@@ -27,7 +27,7 @@ cmake_policy(SET CMP0042 NEW)
 cmake_policy(SET CMP0048 NEW)
 cmake_policy(SET CMP0063 NEW)
 
-set(CMAKE_CXX_STANDARD          11)
+set(CMAKE_CXX_STANDARD          17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS        OFF)
 
@@ -45,7 +45,7 @@ option(SCRIPT_LIB_ELUNA     "Compile with support for Eluna scripts"        ON)
 option(SCRIPT_LIB_SD3       "Compile with support for ScriptDev3 scripts"   ON)
 option(PLAYERBOTS           "Enable Player Bots"                            OFF)
 option(SOAP                 "Enable remote access via SOAP"                 OFF)
-option(PCH                  "Enable precompiled headers"                    ON)
+option(PCH                  "Enable precompiled headers"                    OFF)
 option(DEBUG                "Enable debug build (only on non IDEs)"         OFF)
 #==================================================================================
 message("")
